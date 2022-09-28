@@ -1,11 +1,13 @@
-import { Fragment, ReactElement } from 'react';
+import { ReactElement } from 'react';
 import Termometro from '../Termometro/Termometro';
+
+import "./App.css"
 
 function App(): ReactElement {
   return (
-    <Fragment>
+    <div className='App'>
       <Termometro />
-    </Fragment>
+    </div>
   );
 }
 

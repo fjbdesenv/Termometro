@@ -10,14 +10,14 @@ export default function Termometro (): ReactElement {
     const celsioForFahrenheit = (celsios:number):number =>(((celsios * 9) / 5) + 32); 
     const fahrenheitForCelsio = (fahrenheit:number):number =>(((fahrenheit - 32) * 5) / 9);
     const celsioForKelvin = (celsios:number):number =>(celsios +  273.15); 
-    const KelvinForcelsio = (celsios:number):number =>(celsios - 273.15); 
+    const KelvinForCelsio = (celsios:number):number =>(celsios - 273.15); 
 
     return(
         <Fragment>
-            <h2>Termometro</h2>
+            <h1 className='title'>Termometro</h1>
             <div>
                 <Input
-                    name='Celsios'
+                    name='Celsio'
                     temperature={temperature}
                     scale={'ºC'}
                     onChange={alterTemp}
@@ -32,12 +32,12 @@ export default function Termometro (): ReactElement {
                     }
                 }/>
                 <Input
-                    name='Kelvis'
+                    name='Kelvin'
                     temperature={celsioForKelvin(temperature)}
                     scale={'ºK'}
                     onChange={(num:number) =>{
                         const temperature = num;
-                        alterTemp(KelvinForcelsio(temperature));
+                        alterTemp(KelvinForCelsio(temperature));
                     }
                 }
                 />

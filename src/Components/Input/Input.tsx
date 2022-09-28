@@ -1,7 +1,5 @@
 import { ReactElement } from "react";
 
-import './Input.css'
-
 interface params {
     name: string,
     temperature: number,
@@ -11,9 +9,9 @@ interface params {
 
 export default function Input ({name, temperature, scale, onChange}: params): ReactElement {
     return(
-        <p>
+        <p className="boxTemperature" >
             <label htmlFor="">{name}</label>
-            <input type="number" value={temperature} onChange={(event) => onChange(event.target.value)}/> {scale} 
+            <input type="number" value={temperature} onChange={(event) => onChange(event.target.value)}/> {scale}
         </p>
     );
 }

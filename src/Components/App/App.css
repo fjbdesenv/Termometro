@@ -1,0 +1,32 @@
+.App{
+    color: white;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    margin: 1.25rem;
+    padding: 1rem;
+
+    border-radius: 1rem;
+    border-style: groove;
+}
+
+
+
+label, input{
+    margin: 0.25rem;
+    padding: 0.25rem;
+
+    text-align: center;
+}
+
+.title{
+    color: rebeccapurple;
+    text-shadow: 1px 1px 1px white, 1px 1px 1rem white;
+
+    text-align: center;
+}
+
+.boxTemperature{
+    padding: 0.75rem;
+}
