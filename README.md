@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+<h1 align="center"> Termometro </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aplicação para conversão de temperatura usando React e TypeScript.
 
-## Available Scripts
+## 🔨 Funcionalidades do projeto
+- `Conversão de temperatura`: Fazer a conversão da unidade de temperatura Celsio, Fahrenheit e Kelvin. 
+- `Cálculo dinâmico`: O cálculo é feito de forma dinâmica a medidda que os valores são atualizados.
+- `Objetivo`: Manter um state centralizado no componente pai, para que o mesmo possa ser atualizado e acessado livremente.
 
-In the project directory, you can run:
+## 📁 Acesso ao projeto
+O projeto pode ser acesado em https://fjbdesenv.github.io/Termometro.
 
-### `npm start`
+## 🛠️ Abrir e rodar o projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🔧 Executar na sua máquina:
+Execute os seguites comandos, necessario instalar `git`:
+1. `git clone https://github.com/fjbdesenv/Music.git`
+2. `cd Music`
+3. `index.html` ou abrir o arquivo index.html no seu navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 👀 Tecnologias utilizadas
+![HTML](https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white)
+![HTML](https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)
 
-### `npm test`
+## ✏️ Autores
+| [<img src="https://avatars.githubusercontent.com/u/110018406?v=4" width=115><br><sub>Fábio Júnior Barbosa</sub>](https://github.com/fjbdesenv) |
+| :---: |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![GitHub issues](https://img.shields.io/github/issues/fjbdesenv/Music)](https://github.com/fjbdesenv/Music/issues)
+[![GitHub forks](https://img.shields.io/github/forks/fjbdesenv/Music)](https://github.com/fjbdesenv/Music/network)
+[![GitHub stars](https://img.shields.io/github/stars/fjbdesenv/Music)](https://github.com/fjbdesenv/Music/stargazers)
+[![GitHub license](https://img.shields.io/github/license/fjbdesenv/Music)](https://github.com/fjbdesenv/Music/blob/main/LICENSE)
